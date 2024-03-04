@@ -6,7 +6,7 @@ function App() {
     return (
         <div className="card" onClick={() => setCount(count + 1)}>
             {count}
-            father
+            glathering
         </div>
     );
 }
