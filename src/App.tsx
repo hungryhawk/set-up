@@ -5,7 +5,7 @@ function App() {
     const [count, setCount] = useState(0);
     return (
         <div className="card" onClick={() => setCount(count + 1)}>
-            {count}i love Anna
+            {count}i love myself
         </div>
     );
 }
