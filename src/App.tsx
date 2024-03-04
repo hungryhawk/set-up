@@ -4,9 +4,9 @@ import './App.scss';
 function App() {
     const [count, setCount] = useState(0);
     return (
-                        <div className="card" onClick={() => setCount(count + 1)}>
+        <div className="card" onClick={() => setCount(count + 1)}>
             {count}
-            clother
+            mother
         </div>
     );
 }
